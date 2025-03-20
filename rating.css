@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131518;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  background-color: #202630;
+  padding: 32px;
+}
+
+.rating {
+  width: 162px;
+  height: 108px;
+}
+
+.out-of {
+  margin-top: 32px;
+  width: 193px;
+  height: 32px;
+  border-radius: 22.5px;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fc7614;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.thank {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35.45px;
+  color: #ffffff;
+}
+
+.para {
+  text-align: center;
+  margin-top: 7px;
+  color: #969fad;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 340px;
+}
+
+/* #################### responsive #################### */
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    margin: 24px;
+  }
+
+  .out-of {
+    margin-top: 24px;
+    width: 168px;
+    margin-top: 16px;
+  }
+
+  .thank {
+    font-size: 24px;
+    line-height: 30.38px;
+    margin-top: 24px;
+  }
+
+  .para {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
