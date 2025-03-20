@@ -1,85 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #131518;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Overpass";
+.card-container {
+  width: 412px;
+  height: 416px;
+  background: linear-gradient(#232a34, #181e27);
+  border-radius: 30px;
 }
 
-.card-container{
-    width: 412px;
-    height: 416px;
-    background: linear-gradient(#232A34, #181E27);
-    border-radius: 30px;
+.card {
+  margin-top: 32px;
+  margin-left: 32px;
 }
 
-.card{
-    margin-top: 32px;
-    margin-left: 32px;
+.circle {
+  width: 48px;
+  height: 48px;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
-.circle{
-    width: 48px;
-    height: 48px;
-    background-color: #262E38;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+.circle img {
+  width: 16.75px;
+  height: 16px;
 }
 
-.circle img{
-    width: 16.75px;
-    height: 16px;
+.title {
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
-.title{
-    margin-top: 30px;
-    font-size: 28px;
-    font-weight: 700;
-    color: #FFFFFF;
+.para {
+  margin-top: 7px;
+  width: 340px;
+  color: #969fad;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.para{
-    margin-top: 7px;
-    width: 340px;
-    color: #969FAD;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
+.numbers {
+  margin-top: 24px;
+  display: flex;
+  gap: 21px;
 }
 
-.numbers{
-    margin-top: 24px;
-    display: flex;
-    gap: 21px;
+.circles {
+  background-color: #262e38;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  color: #7c8798;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.circles{
-    background-color: #262E38;
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    color: #7C8798;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.submit{
-    width: 341px;
-    height: 45px;
-    background-color: #FC7614;
-    border-radius: 22.5px;
-    border: none;
-    color: #FFFFFF;
-    margin-top: 32px;
-    letter-spacing: 2px;
-    font-weight: 700;
+.submit {
+  width: 341px;
+  height: 45px;
+  background-color: #fc7614;
+  border-radius: 22.5px;
+  border: none;
+  color: #ffffff;
+  margin-top: 32px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
